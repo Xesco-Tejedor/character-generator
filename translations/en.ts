@@ -1,0 +1,75 @@
+
+// translations/en.ts
+export const en = {
+  'app.title': 'Character Generator',
+  'app.tagline': 'Craft unique character visuals with the power of AI.',
+  'app.generateButton': 'Generate Vision',
+  'app.generatingButton': 'Generating...',
+  'app.generateVisionAriaLabel': 'Generate character vision',
+  'app.generatingVisionAriaLabel': 'Generating character vision, please wait',
+  'footer.poweredBy': 'Powered by Google Imagen & Gemini API. Created with React & Tailwind CSS.',
+
+  'form.section.coreConcept': 'Core Concept',
+  'form.section.attirePose': 'Attire & Pose',
+  'form.section.visualStyle': 'Visual Style & Composition',
+  'form.section.additionalDetails': 'Additional Details',
+
+  'form.species.label': 'Species / Archetype',
+  'form.species.placeholder': 'e.g., Elf ranger, Cyberpunk hacker, Ancient golem',
+  'form.features.label': 'Key Features & Appearance',
+  'form.features.placeholder': 'e.g., Glowing blue eyes, intricate tattoos, metallic prosthetic arm',
+  'form.attire.label': 'Clothing & Attire',
+  'form.attire.placeholder': 'e.g., Hooded cloak, reinforced combat suit, elegant silken robes',
+  'form.poseExpression.label': 'Pose & Expression',
+  'form.poseExpression.placeholder': 'e.g., Crouching, ready to pounce; Serene, meditative pose',
+  'form.background.label': 'Background / Setting',
+  'form.background.placeholder': 'e.g., Mystical forest, neon-lit cityscape, ancient ruins',
+  'form.additionalNotes.label': 'Fine-tuning Notes (Optional)',
+  'form.additionalNotes.placeholder': "e.g., Specific color palette, mood, small details like 'wearing a silver locket'",
+
+  'form.shotType.label': 'Shot Type',
+  'form.shotType.portrait': 'Portrait (Head and Shoulders)',
+  'form.shotType.fullBody': 'Full Body',
+  'form.shotType.actionShot': 'Action Shot',
+
+  'form.artisticStyle.label': 'Artistic Style',
+  'form.artisticStyle.photorealistic': 'Photorealistic',
+  'form.artisticStyle.fantasyArt': 'Fantasy Art Illustration',
+  'form.artisticStyle.animeManga': 'Anime / Manga Style',
+  'form.artisticStyle.pixelArt': 'Pixel Art',
+  'form.artisticStyle.comicBook': 'Comic Book Style',
+  'form.artisticStyle.sciFiConcept': 'Sci-Fi Concept Art',
+  'form.artisticStyle.cartoon': 'Cartoon Style',
+  'form.artisticStyle.impressionistic': 'Impressionistic Painting',
+  'form.artisticStyle.charcoalSketch': 'Charcoal Sketch',
+  'form.artisticStyle.custom': 'Custom Style (Describe below)',
+  'form.customArtisticStyle.label': 'Describe Custom Style',
+  'form.customArtisticStyle.placeholder': "e.g., Van Gogh inspired, Dark Souls mood, specific artist's name, retro pixel game",
+  
+  'error.customStyleDescriptionMissing': "Please describe your custom artistic style when 'Custom Style' is selected.",
+  'error.unknown': 'An unknown error occurred.',
+
+  'imageDisplay.loadingText': 'Crafting your vision...',
+  'imageDisplay.loadingSubtext': 'This can take a moment.',
+  'imageDisplay.generationFailed': 'Generation Failed',
+  'imageDisplay.checkInputs': 'Please check your inputs or API key configuration and try again.',
+  'imageDisplay.imageAltText': 'Generated image of {species} in {style} style',
+  'imageDisplay.imageAltTextCustom': 'Generated image of {species} in custom style: {customStyle}',
+  'imageDisplay.placeholderTitle': 'Your Character Awaits',
+  'imageDisplay.placeholderSubtitle': 'Fill in the details and click "Generate Vision" to bring your character to life.',
+
+  'languageSwitcher.label': 'Language',
+  'language.en': 'English',
+  'language.es': 'Español',
+
+  'history.panelTitle': 'Generation History',
+  'history.clearButton': 'Clear History',
+  'history.clearAriaLabel': 'Clear all generation history',
+  'history.emptyMessage': 'No generations in history yet. Create one!',
+  'history.restoreButton': 'Restore',
+  'history.restoreAriaLabel': 'Restore generation for {species}',
+  'history.thumbnailAlt': 'Thumbnail of {species}',
+  'history.customStyleLabel': 'Custom: {customStyle}',
+};
+
+export type AppTranslations = typeof en;

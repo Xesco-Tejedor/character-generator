@@ -1,0 +1,7 @@
+
+{
+  "name": "Character Generator",
+  "description": "Character Generator: A comprehensive app for custom character visual generation using Google's Imagen model. Users can create detailed character portraits and full-body visualizations by customizing attributes, attire, and artistic style through an intuitive interface.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
