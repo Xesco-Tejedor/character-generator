@@ -1,4 +1,3 @@
-
 # ✨ ¡Generador de Personajes IA: Desata Tu Imaginación! ✨
 
 ¡Bienvenido al **Generador de Personajes IA**! Prepárate para dar vida a tus ideas más salvajes y crear personajes visualmente impactantes con el poder de la inteligencia artificial. ¿Alguna vez soñaste con un elfo explorador con ojos brillantes, un hacker cyberpunk con tatuajes de neón o un golem ancestral surgido de leyendas olvidadas? ¡Ahora puedes verlos con tus propios ojos!
@@ -38,9 +37,15 @@ Empezar es muy sencillo:
 
 1.  **Configura tu API Key**:
     *   Este proyecto utiliza la API de Google Gemini para la generación de imágenes. Necesitarás tu propia API Key.
-    *   **Importante**: La API Key se gestiona a través de la variable de entorno `process.env.API_KEY`. Asegúrate de que esta variable esté configurada en tu entorno de ejecución. **La aplicación no te pedirá la clave directamente por motivos de seguridad.**
+    *   Crea un archivo `.env` en la raíz del proyecto y añade tu API Key:
+        ```
+        VITE_API_KEY=tu_api_key_de_google_gemini
+        ```
+    *   **Importante**: Asegúrate de no compartir o subir tu API Key a repositorios públicos. El archivo `.env` está incluido en `.gitignore` por seguridad.
 2.  **Abre la Aplicación**:
-    *   Simplemente abre el archivo `index.html` en tu navegador web favorito. ¡No necesitas instalaciones complicadas!
+    *   Ejecuta `npm install` para instalar las dependencias
+    *   Inicia el servidor de desarrollo con `npm run dev`
+    *   La aplicación se abrirá automáticamente en tu navegador
 3.  **¡Empieza a Crear!**:
     *   Rellena los campos del formulario con los detalles de tu personaje.
     *   Selecciona el tipo de plano y tu estilo artístico preferido.
