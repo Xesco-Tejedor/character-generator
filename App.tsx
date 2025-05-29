@@ -112,7 +112,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 p-4 md:p-8 flex flex-col">
+    <div data-testid="app-container" className="min-h-screen bg-slate-900 text-slate-100 p-4 md:p-8 flex flex-col">
       <header className="mb-8 text-center">
         <div className="flex justify-center items-center mb-2 relative">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
